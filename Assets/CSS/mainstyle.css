@@ -66,6 +66,7 @@ header, footer {
 .header_icons {
     width: 20px;
     margin-left: 15px;
+    padding-right: 5px;
 } 
 
 .footer_icons {
@@ -89,4 +90,13 @@ header, footer {
 hr {
     border: solid 1px lightgray;
     margin-bottom: 15px;
+}
+
+#myface:hover {
+    cursor: zoom-in;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
 }
