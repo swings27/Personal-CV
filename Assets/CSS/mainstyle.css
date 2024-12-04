@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 @font-face {
     font-family: "Raleway";
-    src: url(../Fonts/Raleway-VariableFont_wght.woff) format(woff),
-     url(../Fonts/Raleway-VariableFont_wght.ttf) format(truetype);
+    src: url(../Fonts/Raleway-Bold.woff) format(woff),
+     url(../Fonts/Raleway-Bold.ttf) format(truetype);
+     font-weight: bold;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(../Fonts/Raleway-Regular.woff) format(woff),
+    url(../Fonts/Raleway-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(../Fonts/Raleway-Italic.woff) format(woff),
+    url(../Fonts/Raleway-Italic.ttf) format(truetype);
+    font-style: italic;
 }
 
 html {
@@ -14,7 +27,7 @@ body {
     width: 1160px;
     margin: auto;
     font-family: "Raleway", Arial, sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 h1, h2, h3 {
@@ -33,6 +46,10 @@ h1, h2 {
 
 h3 {
     color: #17abb3;
+    margin-top: 25px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
 }
 
 header, footer {
@@ -55,16 +72,21 @@ header, footer {
     width: 30px;
 }
 
-#first_section {
+.first_section {
     background-color: #e3e3e3;
     padding: 30px;
 }
 
 .stars {
-    width: 20px;
+    width: 15px;
 }
 
 #second_section {
     background-color: #ffffff;
     padding: 30px;
+}
+
+hr {
+    border: solid 1px lightgray;
+    margin-bottom: 15px;
 }
