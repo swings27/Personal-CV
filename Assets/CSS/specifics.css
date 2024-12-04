@@ -21,6 +21,86 @@ header {
     line-height: 2rem;
 }
 
+main {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.first_section {
+    width: 500px;
+}
+
+#skills, #language {
+    display: flex;
+    flex-flow: row wrap;
+    width: 240px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#skills div, #language div {
+    padding-bottom: 5px;
+}
+
+.special {
+    padding-left: 30px;
+}
+
+.bold {
+    padding-right: 40px;
+    font-size: 0.90rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.3rem;
+}
+
+ul li::before {
+    content: "■";
+    padding-right: 10px;
+    color: #17abb3;
+}
+
+#presentation {
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.2rem;
+}
+
+#education, #internship, #job {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    text-align: right;
+    color:#17abb3;
+}
+
+#education {
+    height: 220px;
+}
+
+#internship {
+    height: 120px;
+}
+
+#job {
+    height: 270px;
+}
+
+.content {
+    text-align: left;
+    line-height: 0.3rem;
+    color: black;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
 #network {
     display: flex;
     flex-flow: row nowrap;
