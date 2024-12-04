@@ -1,0 +1,16 @@
+#network {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.footer_icons {
+    padding: 20px 10px 0 10px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.80rem;
+    font-style: oblique;
+    padding-bottom: 20px;
+}
