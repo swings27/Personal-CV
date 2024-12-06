@@ -28,6 +28,7 @@ body {
     margin: auto;
     font-family: "Raleway", Arial, sans-serif;
     font-weight: 400;
+    color: #333333;
 }
 
 h1, h2, h3 {
@@ -35,7 +36,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.7rem;
     padding: 0;
 }
 
@@ -53,12 +54,14 @@ h3 {
 }
 
 header, footer {
+    box-sizing: border-box;
+    width: 1160px;
     background-color: #17abb3;
     color: #ffffff;
 }
 
 #picture {
-    width: 200px;
+    width: 150px;
     border: solid 5px #ffffff;
     border-radius: 50%;
 }
@@ -74,8 +77,9 @@ header, footer {
 }
 
 .first_section {
+    box-sizing: border-box;
     background-color: #e3e3e3;
-    padding: 30px;
+    padding: 25px 40px;
 }
 
 .stars {
@@ -83,8 +87,9 @@ header, footer {
 }
 
 #second_section {
+    box-sizing: border-box;
     background-color: #ffffff;
-    padding: 30px;
+    padding: 25px 40px 60px 40px;
 }
 
 hr {
